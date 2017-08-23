@@ -1,4 +1,4 @@
-/* Configura‡äes gerais */
+/* Configurações gerais */
 html {
   font-size: 62.5%; /* 10px */
 }
@@ -14,9 +14,8 @@ body {
 .block-header {
 	padding-top: 8px;
 	height: 110px;
-	border-bottom: 2px solid #454545;
 
-	background-color: #fff;
+	background-color: #454545;
 }
 
 .block-header--fixed {
@@ -36,9 +35,29 @@ body {
 	list-style: none;
 }
 
+/* Bloco Nav */
+.block-nav{
+	margin-top: 110px;
+	padding: 40px 0;
+	
+	background-color: #A0522D;
+}
+
+.nav-promocional {
+	font-size: 1.6rem; /* 1.6 * 10px */
+	text-align: center;
+}
+
+@media(min-width: 760px) {
+	.nav-promocional {
+		padding: 0 5%;
+		
+		font-size: 2.3rem;
+	}
+}
+
 /* Bloco Section */
 .block-section {
-	margin-top: 100px;
 	padding: 20px 0px;
 }
 
@@ -71,9 +90,10 @@ body {
 	text-align: center;
 }
 
-/* Bloco Formul rios */
+/* Bloco Formularios */
 .block-form {
-	margin-top: 100px;
+	margin-top: 110px;
+	padding: 20px 0px;
 }
 
 /* Elementos Header */
@@ -89,6 +109,8 @@ body {
 	font-size: 21px;
 	font-weight: bold;
 	text-align: center;
+	
+	color: #fff;
 }
 
 .block-header__menu {
@@ -110,13 +132,39 @@ body {
 }
 
 .header-menu__item:hover, .header-menu__item:focus {
-	background-color: #800000;
+	background-color: #A0522D;
 }
 
-.header-menu__item a {
+/* Elementos Nav */
+.nav-promocional__titulo {
+	margin: 0;
+	
 	color: #fff;
 	
+	font-size: 5rem;
+	line-height: 1em;
+	text-shadow: 2px 2px #454545; 
+}
+
+.nav-promocional__button {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	
+	font-size: 1em;
+}
+
+.nav-promocional__button > a {
+	padding: 15px 35px;
+	border-radius: 10px;
+	
+	color: #fff;
 	text-decoration: none;
+	
+	background-color: #222;
+}
+
+.nav-promocional__button > a:hover, .nav-promocional__button > a:focus {
+	background-color: #444;
 }
 
 /* Elementos Section */
@@ -150,10 +198,10 @@ body {
 }
 
 .section-product__button > a:hover {
-	background-color: #8b0000;
+	background-color: #A0522D;
 }
 
-/* Elementos Formul rios */
+/* Elementos Formularios */
 .form__titulo {
 	text-align: center;
 }
