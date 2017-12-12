@@ -1,0 +1,104 @@
+﻿/* Header */
+.block-header__logomarca {
+	float: left;
+	width: 99px; 
+	height: 68px;
+}
+
+.block-header__descricao {
+	width: 98px;
+	
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+	
+	color: #fff;
+}
+
+.block-header__menu {
+	float: right;
+	padding-top: 25px;
+}
+
+/* Header-Menu */
+.header-menu__item {
+	display: inline-block;
+	position:relative;
+	padding: 10px;
+	width: 90px;
+			
+	background-color: #00008b;
+	color: #fff;
+	text-align: center;
+	
+}
+
+.header-menu__item:hover, .header-menu__item:focus {
+	background-color: #A0522D;
+}
+
+/* Nav */
+.nav-promocional__titulo {
+	margin: 0;
+	
+	color: #fff;
+	
+	font-size: 5rem;
+	line-height: 1em;
+	text-shadow: 2px 2px #454545; 
+}
+
+.nav-promocional__button {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	
+	font-size: 1em;
+}
+
+.nav-promocional__button > a {
+	padding: 15px 35px;
+	border-radius: 10px;
+	
+	color: #fff;
+	text-decoration: none;
+	
+	background-color: #222;
+}
+
+.nav-promocional__button > a:hover, .nav-promocional__button > a:focus {
+	background-color: #444;
+}
+
+/* Section */
+.section-product__imagem {
+	height: 150px;
+}
+
+.section-product__descricao, .section-product__valor {
+	margin: 10px 0;
+	
+	font-size: 2.8rem;
+}
+
+.section-product__pagamento {
+	margin: 10px 0;
+	
+	font-size: 2rem;
+}
+
+.section-product__button {
+	padding: 10px 0;
+}
+
+.section-product__button > a {
+	padding: 10px 15px;
+	
+	color: #fff;
+	text-decoration: none;
+	
+	background-color: #00008B;
+}
+
+.section-product__button > a:hover {
+	background-color: #A0522D;
+}
