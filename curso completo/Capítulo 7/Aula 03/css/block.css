@@ -1,0 +1,111 @@
+/*Header*/
+.block-header {
+	padding-top: 8px;
+	height: 110px;
+	border-bottom: 2px solid #fff;
+
+	background-color: #ffa000;
+}
+
+.block-header--fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+/*Header menu*/
+.header-menu, .header-submenu {
+	margin: 0;
+
+	font-size: 1.6rem;
+	list-style: none;
+}
+
+@media (max-width: 768px) {
+	.header-menu {
+		position: fixed;
+		top: 80px;
+		right: 0;
+		bottom: 0;
+		display: none;
+
+		width: 240px;
+		padding: 25px;
+		border-left: 10px solid #000;
+		background-color: #454545;
+	}
+
+	.header-menu--toggling {
+		display: block;
+	}
+}
+
+@media (min-width: 769px) {
+	.header-submenu {
+		position: absolute;
+		display: none;
+		top: 35px;
+		left: 0;
+
+		padding: 0;
+		z-index: 100;
+	}
+}
+
+/*Footer*/
+.block-footer {
+	padding: 20px 0;
+
+	background-color: #454545;
+
+	color: #fff;
+	text-align: center;
+}
+
+/*Nav*/
+.block-nav {
+	margin-top: 110px;
+	padding: 80px 0;
+	background-image: url("../imagens/nav_index.jpg");
+}
+
+.nav-promocional{
+	font-style: 1.6rem; /* 10px * 1.6 */
+	text-align: center;
+}
+
+@media (min-width: 760px) {
+	.nav-promocional {
+		padding: 0 5%;
+
+		font-size: 2.3rem;
+	}
+}
+
+/*Section*/
+.block-section {
+	padding: 10px 0;
+}
+
+.section-produto {
+	position: relative;
+
+	padding: 10px 0;
+	width: 100%;
+	height: 380px;
+	margin: 5px 0;
+	border: 1px solid #454545;
+
+	text-align: center;
+}
+
+@media (min-width: 970px) {
+	.section-produto {
+		float: left;
+
+		width: 30%;
+		margin: 10px;
+	}
+}

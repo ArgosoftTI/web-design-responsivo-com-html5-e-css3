@@ -1,0 +1,58 @@
+div {
+	width: 30%;
+	height: 100px;
+	background-color: orange;
+	-webkit-transition: width 2s; /*Safari*/
+	transition: width 2s;
+}
+
+/*Mozilla: -moz-transition*/ 
+/*IExplorer: -ms-transition*/
+/*Safari, Chrome: -webkit-transition*/
+/*Opera: -o-transition*/
+
+/*Safari*/
+#div1 {
+	-webkit-transition-timing-funcion: linear;
+}
+
+#div2 {
+	-webkit-transition-timing-funcion: ease;
+}
+
+#div3 {
+	-webkit-transition-timing-funcion: ease-in;
+}
+
+#div4 {
+	-webkit-transition-timing-funcion: ease-out;
+}
+
+#div5 {
+	-webkit-transition-timing-funcion: ease-in-out;
+}
+
+/*Outros*/
+#div1 {
+	transition-timing-funcion: linear;
+}
+
+#div2 {
+	transition-timing-funcion: ease;
+}
+
+#div3 {
+	transition-timing-funcion: ease-in;
+}
+
+#div4 {
+	transition-timing-funcion: ease-out;
+}
+
+#div5 {
+	transition-timing-funcion: ease-in-out;
+}
+
+div:hover {
+	width: 100%;
+}

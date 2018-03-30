@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+.referencia {
+	background-color: red;
+	height: 30px;
+	width: 50%;
+}
+
+.border {
+	background-color: green;
+	width: 50%;
+	border: 20px #999 solid;
+}
+
+.padding {
+	background-color: blue;
+	width: 50%;
+
+	padding: 10px;
+}
+
+.margin {
+	background-color: green;
+	width: 50%;
+
+	margin: 10px;
+}

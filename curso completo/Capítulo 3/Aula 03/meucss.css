@@ -1,0 +1,28 @@
+* {
+	font-size: 32px;
+}
+
+h1 {
+	color: red;
+}
+
+#titulo {
+	color: green;
+}
+
+.titulo {
+	color: red;
+}
+
+div.meudiv {
+	background-color: blue;
+	color: red;
+}
+
+.outrodiv {
+	font-family: "Arial";
+}
+
+footer[title=meufooter] {
+	color: gray;
+}

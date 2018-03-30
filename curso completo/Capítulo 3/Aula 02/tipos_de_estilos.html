@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+	<title>Estilos inline, incorporados e externos</title>
+	<!--Isto é um estilo externo-->
+	<link rel="stylesheet" href="meucss.css">
+	<!--Isto é um estilo incorporado-->
+	<style>
+		p {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<!--Isto é um estilo inline-->
+	<p style="color: blue;">Estilo inline P</p>
+	<div style="background-color: black; color: white;">Estilo inline do DIV</div>
+	
+	<!--Referência ao estilo incorporado-->
+	<p>Estilo incorporado do <em>EM</em>.</p>
+
+	<!--Referência ao estilo externo-->
+	<p>Estilo externo do <em>EM</em>.</p>
+	<div>Estilo externo do DIV com <p>P</p>.</div>
+</body>
+</html>

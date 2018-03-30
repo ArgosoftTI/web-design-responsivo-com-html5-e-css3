@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<title>Hat Shop - Cadastro.</title>
+
+	<link rel="stylesheet" type="text/css" href="css/extends/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/principal.css" />
+</head>
+<body>
+	<header>
+		<div>
+			<div>
+				<a href="index.html">
+					<img src="imagens/logomarca/logo.png" width="99" height="68" alt="Hat Shop">
+				</a>
+			</div>
+			
+			<div>
+				<ul>
+					<a href="index.html">
+						<li>HOME</li>
+					</a>
+					<a href="sobre.html">
+						<li>Sobre</li>
+					</a>
+					<a href="contato.html">
+						<li>Contato</li>
+					</a>
+					<a href="">
+						<li>Restrito
+							<ul><a href="login.html">
+									<li>Login</li>
+								</a>
+								<a href="cadastro.html">
+									<li>Cadastro</li>
+								</a>
+							</ul>
+						</li>
+					</a>
+				</ul>
+			</div>
+
+			<div>Hat Shop</div>
+		</div>
+	</header>
+
+	<main>
+		<div>
+			<h1>Cadastro</h1>
+			<h3>
+				Cadastre-se grátis! Ganhe 50% de desconto na primeira compra.
+			</h3>
+			<form action="#" method="post">
+				<div>
+					<label for="nome">Nome</label>
+					<input id="nome" type="text" name="nome" required="required" />
+				</div>
+
+				<div>
+					<div>
+						<label for="cpf">CPF</label>
+						<!-- 123.456.789-00 -->
+						<input id="cpf" type="text" name="cpf" maxlength="14"
+							pattern="\d{3}.\d{3}.\d{3}-\d{2}" />
+					</div>
+
+					<div>
+						<label for="data-nascimento">Data de nascimento</label>
+						<input id="data-nascimento" type="date" name="data-nascimento" />
+					</div>
+				</div>
+
+				<div>
+					<label for="email">E-mail</label>
+					<input id="email" type="email" name="email" required="required" />
+				</div>
+
+				<div>
+					<label for="estado">Estado</label>
+					<select name="estado" id="estado">
+						<option value="SP">São Paulo</option>
+						<option value="PB">Paraíba</option>
+						<option value="PE">Pernambuco</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="RS">Rio Grande do Sul</option>
+					</select>
+
+					<div>
+						<label for="cidade">Cidade</label>
+						<input id="cidade" type="text" name=cidade required="required" />
+					</div>
+				</div>
+
+				<div>
+					<div>
+						<label for="senha">Senha</label>
+						<input id="senha" type="password" name="senha" required="required" />
+					</div>
+
+					<div>
+						<label for="senha-confirmacao">Confirmação de senha</label>
+						<input id="senha-confirmacao" type="password" name="senhaConfirmacao" required="required" />
+					</div>
+				</div>
+
+				<div>
+					<button type="reset">Limpar</button>
+					<button type="submit">Cadastrar</button>	
+				</div>
+			</form>
+		</div>
+	</main>
+
+	<footer>
+		<div>
+			<p>&copy; Copyright. Hat Shop. Todos os direitos reservados.</p>
+		</div>
+	</footer>
+</body>
+</html>

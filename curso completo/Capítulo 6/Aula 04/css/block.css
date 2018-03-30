@@ -1,0 +1,20 @@
+/*Header*/
+.block-header {
+	background-color: #ffa000;
+}
+
+/*Header menu*/
+.header-menu, .header-submenu {
+	font-size: 1.6rem;
+	list-style: none;
+}
+
+/*Header submenu*/
+.header-submenu {
+	position: absolute;
+	display: none;
+	top: 31px;
+	left: 0;
+
+	padding: 0;
+}

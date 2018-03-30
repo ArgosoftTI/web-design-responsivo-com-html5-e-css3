@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+	<title>Formulários</title>
+</head>
+<body>
+	<form action="action_page.php" method="POST">
+		<fieldset>
+			<legend>Cadastro inicial</legend>
+			<label for="nome">Nome:</label>
+			<input id="nome" type="text" value="Usuário001" readonly="readonly" tabindex="1" />
+			<br />
+
+			<label for="senha">Senha:</label>
+			<input id="senha" type="password" disabled="disabled" />
+			<br />
+
+			<label>Sexo:</label>
+			<input type="radio" name="sexo" checked="checked" value="M" />Masculino
+			<input type="radio" name="sexo" value="F" />Feminino
+		</fieldset>
+
+		<fieldset>
+			<legend>Preferências</legend>
+			<label>Assuntos de interesse</label>
+			<br/ >
+
+			<input type="checkbox" name="assuntos" value="html" />HTML <br />
+			<input type="checkbox" name="assuntos" value="css" />CSS <br />
+			<input type="checkbox" name="assuntos" value="php" />PHP <br />
+			<br/ >
+
+			<label>Anexar arquivo</label>
+			<input type="file" />
+			<br/ >
+
+			<label for="pais">País de origem</label>
+			<select name="pais_origem" id="pais">
+				<option value="BR">BRASIL</option>
+				<option value="AR">ARGENTINA</option>
+			</select>
+			<br/ >
+
+			<label for="editores_navegadores">Editores e navegadores</label>
+			<select name="edit_nav" id="editores_navegadores">
+				<optgroup label="Editores">
+					<option value="notepadplusplus">Notepad++</option>
+					<option value="sublimetext">Sublime Text</option>
+				</optgroup>
+				<optgroup label="Navegadores">
+					<option value="chrome">Google Chrome</option>
+					<option value="Firefox">Mozilla Firefox</option>
+				</optgroup>
+			</select>
+			<br/ >
+
+			<label for="comentarios">Comentários</label>
+			<textarea name="comentario" id="comentarios" cols="30" rows="10" tabindex="2"></textarea>
+		</fieldset>
+
+		<input type="button" value="Check" />
+		<input type="submit" value="Enviar" />
+		<input type="reset" value="Limpar">
+	</form>
+</body>
+</html>

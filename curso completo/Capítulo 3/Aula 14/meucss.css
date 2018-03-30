@@ -1,0 +1,52 @@
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+ul#principal > li {
+	float: left;
+}
+
+li {
+	border: 1px solid black;
+	width: 120px;
+	padding: 3px;
+	position: relative;
+}
+
+li:hover{
+	background-color: black;
+	color: white;
+}
+
+ul > li > ul {
+	position: absolute;
+	left: 0;
+	top: 25px;
+	color: black;
+	display: none;
+}
+
+li:hover > ul {
+	display: inline-block;
+}
+
+ol#rodape {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ol#rodape > li {
+	border: 3px solid blue;
+	padding: 5px;
+}
+
+ol > li > ul {
+	position: absolute;
+	left: 133px;
+	top: 1px;
+	color: black;
+	display: none;
+}

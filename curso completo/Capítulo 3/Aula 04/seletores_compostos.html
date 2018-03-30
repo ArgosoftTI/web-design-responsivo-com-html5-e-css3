@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+	<title>Seletores combinados, adjacentes, descendentes e filhos diretos</title>
+	<link rel="stylesheet" href="meucss.css" />
+</head>
+<body>
+	<!--Seletores combinados-->
+	<div>
+		<p>Seletores <em>combinados</em>.</p>
+		<p>Seletores <em>combinados</em>.</p>
+	</div>
+
+	<!--Seletores adjacentes-->
+	<div>
+		<h2>Título H2</h2>
+		<p>Esse é um P com filho
+			<em>EM</em> que não é afetado.
+		</p>
+	</div>
+
+	<!--Seletores descendentes e filhos direto-->
+	<div class="descendentes">
+		<strong>UM STRONG</strong>
+		<p class="filho">cujo P é filho direto de DIV e <strong>STRONG</strong>
+			é filho direto de P e descendente de DIV.
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body {
+	background-color: #ddd;
+}
+
+p {
+	padding: 20px 0;
+	margin: 0;
+	font-size: 32px;
+}
+
+.logomarca {
+	background-color: blue;
+	color: #fff;
+}
+
+.menu {
+	background-color: black;
+	color: #fff;
+}
+
+@media (min-width: 768px){
+	.logomarca {
+		width: 30%;
+		float: left;
+	}
+}
+
+.banner_promocional {
+	background-color: orange;
+	color: #fff; 
+}
+
+.banner_promocional_2 {
+	background-color: green;
+	color: #fff; 
+}
+
+.banner_promocional_3 {
+	background-color: red;
+	color: #fff; 
+}
+
+@media (min-width: 1024px) {
+	.banner_promocional_2 {
+		width: 50%;
+		float: left;
+	}
+}
+
+.container {
+	margin: 0 auto;
+
+	/*
+	margin-right: auto;
+	margin-left: auto;
+	*/
+}
+
+@media (min-width: 768px) {
+	.container{width: 750px}
+}
+
+@media (min-width: 992px) {
+	.container{width: 970px}
+}
+
+@media (min-width: 1200px) {
+	.container{width: 1170px}
+}
+
+.produtos_1 {
+	background-color: purple;
+	color: #fff;
+}
+
+.produtos_2 {
+	background-color: #f51;
+	color: #fff;
+}
+
+.produtos_3 {
+	background-color: #51f;
+	color: #fff;
+}
+
+.produtos_4 {
+	background-color: #1f5;
+	color: #fff;
+}
+
+.produtos_5 {
+	background-color: #ee1;
+	color: #fff;
+}
+
+.produtos_6 {
+	background-color: #333;
+	color: #fff;
+}
+
+.produtos_7 {
+	background-color: #146;
+	color: #fff;
+}
+
+.produtos_8 {
+	background-color: #641;
+	color: #fff;
+}
+
+@media (min-width: 768px) {
+	.produtos_1,
+	.produtos_2,
+	.produtos_4,
+	.produtos_5 {
+		width: 33.33%;
+		float: left;
+	}
+
+	.produtos_7 {
+		width: 50%;
+		float: left;
+	}
+}
+
+.rodape {
+	background-color: olive;
+	color: #fff;	
+}

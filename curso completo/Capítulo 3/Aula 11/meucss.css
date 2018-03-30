@@ -1,0 +1,33 @@
+* {
+	font-size: 32px;
+	margin: 0;
+}
+
+.boxabsoluta {
+	background-color: red;
+	width: 760px;
+	font-size: 2em; /* 32px * 2 = 64px*/
+}
+
+.boxrelativa {
+	background-color: green;
+	border:  2px solid black;
+	margin-left: 1em;  /* Relativo ao tamanho do texto (32 pixels)*/
+	width: 50%;
+}
+
+.paragrafo {
+	font-size: 32px;
+}
+
+.paragrafo-rem {
+	font-size: 2em; /* 32 * 2 = 64px */
+}
+
+span {
+	font-size: 2em; /* 2 * 64 = 128px  */
+}
+
+em {
+	font-size: 2rem; /* 2 * 32 = 64px  */
+}

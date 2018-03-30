@@ -1,0 +1,53 @@
+/*Pseudo-classes*/
+div p:first-child {
+	color: blue;
+}
+
+a:link {
+	color: gray;
+	text-decoration: none;
+}
+
+a:active {
+	color: green;
+	background-color: yellow;
+}
+
+a:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+input[type="text"]:hover, input[type="text"]:focus {
+	background-color: yellow;
+}
+
+.botao {
+	background-color: green;
+}
+
+.botao:hover, .botao:focus {
+	background-color: purple;
+}
+
+/*Pseudo-elementos*/
+.primeiralinha::first-line {
+	color: red;
+}
+
+p.primeiralinha::first-letter {
+	font-size: 40px;
+}
+
+div.beforeafter::before {
+	content: "Texto antes - ";
+}
+
+div.beforeafter::after {
+	content: " - texto depois."
+}

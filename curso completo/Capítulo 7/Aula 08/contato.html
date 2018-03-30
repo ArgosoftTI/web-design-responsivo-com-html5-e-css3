@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>Hat Shop - Contato.</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/extends/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/principal.css" />
+	<link rel="stylesheet" type="text/css" href="css/block.css" />
+	<link rel="stylesheet" type="text/css" href="css/element.css" />
+</head>
+<body>
+	<header class="block-header block-header--fixed">
+		<div class="container">
+			<div class="block-header__logomarca">
+				<a href="index.html">
+					<img src="imagens/logomarca/logo.png" width="99" height="68" alt="Hat Shop">
+				</a>
+			</div>
+
+			<div class="block-header__menu">
+				<button class="bar-button js-bar-button"></button>
+
+				<ul class="header-menu js-menu">
+					<a href="index.html">
+						<li class="header-menu__item">HOME</li>
+					</a>
+					<a href="sobre.html">
+						<li class="header-menu__item">Sobre</li>
+					</a>
+					<a href="contato.html">
+						<li class="header-menu__item">Contato</li>
+					</a>
+					<a href="" class="header-menu__item--button">
+						<li class="header-menu__item">Restrito
+							<ul class="header-submenu">
+								<a href="login.html">
+									<li class="header-submenu__item">Login</li>
+								</a>
+								<a href="cadastro.html">
+									<li class="header-submenu__item">Cadastro</li>
+								</a>
+							</ul>
+						</li>
+					</a>
+				</ul>
+			</div>
+
+			<div class="block-header__descricao">Hat Shop</div>
+		</div>
+	</header>
+
+	<main class="block-form">
+		<div class="container">
+			<h1 class="form__titulo">Entre em contato conosco!</h1>
+			<h3 class="form__subtitulo">Dúvidas, sugestões, reclamações e outros assuntos</h3>
+			<form action="#" method="get">
+				<div class="form-group">
+					<label for="nome">Nome</label>
+					<input id="nome" type="text" name="nome" class="form-control" 
+							required="required" />
+				</div>
+
+				<div class="row">
+					<div class="form-group col-xs-12 col-sm-6">
+						<label for="email">E-mail</label>
+						<input id="email" type="email" name="email"
+								class="form-control" required="required" />
+					</div>
+
+					<div class="form-group col-xs-12 col-sm-6">
+						<label for="telefone">Telefone</label>
+						<input id="telefone" type="tel" 
+								name="telefone" maxlength="15" 
+								class="form-control"
+								pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" />
+								<!--(XX)XXXXX-XXXX-->
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="assunto">Assunto</label>
+					<input id="assunto" type="text" name="assunto"
+							class="form-control" required="required" />
+				</div>
+
+				<div class="form-group">
+					<label for="textarea">Mensagem</label>
+					<textarea id="textarea" name="mensagem" class="form-control"
+							maxlength="500" rows="5" required="required"></textarea>
+				</div>
+
+				<div class="form-group">
+					<button type="reset" class="form__clear">Limpar</button>
+					<button type="submit" class="form__process">Enviar</button>
+				</div>
+			</form>
+		</div>
+	</main>
+
+	<footer class="block-footer">
+		<div class="container">
+			<p>&copy; Copyright. Hat Shop. Todos os direitos reservados.</p>
+		</div>
+	</footer>
+
+	<script src="javascripts/menu-controller.js"></script>
+</body>
+</html>

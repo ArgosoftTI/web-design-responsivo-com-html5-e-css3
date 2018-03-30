@@ -1,0 +1,35 @@
+/*Herança: todos herdam as características de body, 
+exceto se eles mesmos tem suas estilizações.*/
+body {
+	margin: 0;
+	font-family: "Arial", sans-serif;
+	font-size: 32px;
+	background-color: black;
+	color: white;
+}
+
+/*0002*/
+div p {
+	color: red;
+}
+
+/*0001*/
+p {
+	color: green; /*!important*/
+}
+
+/*0011*/
+div.classediv {
+	background-color: purple;
+	color: white;
+}
+
+/*0100*/
+#iddiv{
+	background-color: green;
+}
+
+/*0101*/
+div#iddiv {
+	background-color: white;
+}

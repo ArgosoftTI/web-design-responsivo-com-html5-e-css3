@@ -1,0 +1,22 @@
+.texto1 {
+	color: #a19;
+	background-color: #19a;
+	
+	font-style: italic;
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 2;
+	font-family: Arial, "Trebuchet MS", sans-serif;
+
+	/*
+	font: italic bold 2em/2 Arial, "Trebuchet MS", sans-serif;
+	*/
+
+	text-decoration: underline;
+	text-align: center;
+}
+
+.texto2 {
+	background-color: #b273a9;
+	font: bold italic 24px Paladino, serif;
+}

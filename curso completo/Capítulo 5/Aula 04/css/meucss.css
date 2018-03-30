@@ -1,0 +1,79 @@
+body {
+	background-color: #ddd;
+}
+
+p {
+	padding: 20px 0;
+	margin: 0;
+	font-size: 32px;  
+}
+
+.logomarca {
+	background-color: blue;
+	color: #fff;
+}
+
+.menu {
+	background-color: black;
+	color: #fff;
+}
+
+.banner_promocional {
+	background-color: orange;
+	color: #fff;
+}
+
+.banner_promocional_2 {
+	background-color: green;
+	color: #fff;
+}
+
+.banner_promocional_3 {
+	background-color: red;
+	color: #fff;
+}
+
+.produto_1 {
+	background-color: purple;
+	color: #FFF;
+}
+
+.produto_2 {
+	background-color: #F51;
+	color: #FFF;
+}
+
+.produto_3 {
+	background-color: #51F;
+	color: #FFF;
+}
+
+.produto_4 {
+	background-color: #1F5;
+	color: #FFF;
+}
+
+.produto_5 {
+	background-color: #EE1;
+	color: #FFF;
+}
+
+.produto_6 {
+	background-color: #333;
+	color: #FFF;
+}
+
+.produto_7 {
+	background-color: #146;
+	color: #FFF;
+}
+
+.produto_8 {
+	background-color: #641;
+	color: #FFF;
+}
+
+.rodape {
+	background-color: olive;
+	color: #FFF;
+}
