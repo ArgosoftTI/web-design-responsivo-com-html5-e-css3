@@ -1,20 +1,20 @@
-ï»¿/* ConfiguraÃ§Ãµes gerais */
+/*Configurações gerais*/
 html {
 	font-size: 62.5%; /* 10px */
 }
 
 body {
 	margin: 0;
-
+	 
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.4rem;
+	font-size: 1.4rem; /* 14px */
 }
 
 a:link {
 	text-decoration: none;
 }
 
-/* CabeÃ§alho */
+/*Bloco do cabeçalho*/
 .block-header {
 	padding-top: 8px;
 	height: 110px;
@@ -30,19 +30,19 @@ a:link {
 	z-index: 99;
 }
 
-/* Elementos do cabeÃ§alho */
+/*Elementos do cabeçalho*/
 .block-header__logomarca {
 	float: left;
-	width: 99px; 
+	width: 99px;
 	height: 68px;
 }
 
 .block-header__descricao {
-	width: 98px;
+	width: 99px;
 	
 	font-size: 21px;
 	font-weight: bold;
-	text-align: center;
+	text-align:center;
 	color: #fff;
 }
 
@@ -52,42 +52,41 @@ a:link {
 	padding-top: 25px;
 }
 
-/* Menu */
+/*Menu*/
 .header-menu {
 	margin: 0;
 	
 	font-size: 1.6rem;
-	list-style: none;
+	list-style:none;
 }
 
-/* Elementos do menu */
+/*Elementos do menu*/
 .header-menu__item {
 	display: inline-block;
-	position: relative;
 	padding: 10px;
 	width: 90px;
-			
+	
 	background-color: #00008b;
 	color: #fff;
 	text-align: center;
 }
 
 .header-menu__item:hover {
-	background-color: #A0522D;
+	background-color: #a0522d;
 }
 
-/* Nav */
-.block-nav{
+/*Nav*/
+.block-nav {
 	margin-top: 110px;
 	padding: 40px 0;
 	
-	background-color: #A0522D;
+	background-color: #a0522d;
 }
 
 .nav-promocional {
-	font-size: 1.6rem; /* 1.6 * 10px */
+	font-size: 1.6rem;
 	
-	text-align: center;
+	text-align:center;
 }
 
 @media(min-width: 760px) {
@@ -98,17 +97,19 @@ a:link {
 	}
 }
 
-/* Elementos do nav */
+
+/*Elementos no nav*/
 .nav-promocional__titulo {
 	margin: 0;
 	
 	color: #fff;
 	font-size: 5rem;
 	line-height: 1em;
-	text-shadow: 2px 2px #454545; 
+	text-shadow: 2px 2px #454545;
+	
 }
 
-.nav-promocional__button {
+.nav-promocional__button{
 	margin-top: 50px;
 	margin-bottom: 20px;
 	
@@ -121,20 +122,20 @@ a:link {
 	
 	background-color: #222;
 	
-	color: #fff;
+	color:#fff;
 }
 
 .nav-promocional__button > a:hover {
 	background-color: #444;
 }
 
-/* Section */
+/*Section*/
 .block-section {
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 
 .section-produto {
-	padding: 10px 0;	
+	padding: 10px 0;
 	width: 100%;
 	margin-bottom: 10px;
 	height: 380px;
@@ -152,44 +153,49 @@ a:link {
 	}
 }
 
-/* Elementos do section */
-.section-product__imagem {
+/*Elementos do section*/
+.section-produto__imagem {
 	height: 150px;
 }
 
-.section-product__descricao, .section-product__valor {
+.section-produto__descricao, .section-produto_valor {
 	margin: 10px 0;
 	
 	font-size: 2.8rem;
 }
 
-.section-product__pagamento {
+.section-produto_pagamento {
 	margin: 10px 0;
 	
 	font-size: 2rem;
 }
 
-.section-product__button {
+.section-produto__button {
 	padding: 10px 0;
 }
 
-.section-product__button > a {
+.section-produto__button > a {
 	padding: 10px 15px;
-	background-color: #00008B;
+	background-color: #00008b;
 	
 	color: #fff;
 }
 
-.section-product__button > a:hover {
-	background-color: #A0522D;
+.section-produto__button > a:hover {
+	background-color: #a0522d;
 }
 
-/* Footer */
+/*Footer*/
 .block-footer {
 	padding: 20px 0;
-
+	
 	background-color: #454545;
 	
 	color: #fff;
-	text-align: center;
+	text-align:center;
 }
+
+
+
+
+

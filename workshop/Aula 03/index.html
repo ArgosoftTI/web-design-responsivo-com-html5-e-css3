@@ -4,38 +4,43 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<title>Hat Shop - Chapéus de qualidade.</title>
+		<title>Hat Shop - Chapéus de qualidade</title>
+		
+		<link rel="stylesheet" href="css/externs/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/estilos.css" />
 	</head>
 	<body>
-		<header>
-			<div>
-				<div>
+		<header class="block-header block-header--fixed">
+			<div class="container">
+				<div class="block-header__logomarca">
 					<a href="index.html">
 						<img src="imagens/logomarca/logo.png" width="99" height="68" alt="Hat Shop" />
 					</a>
 				</div>
-				<div>
-					<ul>
+				<div class="block-header__menu">
+					<ul class="header-menu">
 						<a href="index.html">
-							<li>HOME</li>
+							<li class="header-menu__item">HOME</li>
 						</a>
-						<a href="cadastro.html">
-							<li>Cadastro</li>
+						<a href="#">
+							<li class="header-menu__item">Cadastro</li>
 						</a>
 					</ul>
 				</div>
-				<div>Hat Shop</div>
+				<div class="block-header__descricao">
+					Hat Shop
+				</div>
 			</div>
 		</header>
 		
-		<nav>
-			<div>
-				<div>
-					<h1>
+		<nav class="block-nav">
+			<div class="container-fluid">
+				<div class="nav-promocional">
+					<h1 class="nav-promocional__titulo">
 						Realize sua primeira compra com 50% de desconto!
 					</h1>
-					<div>
-						<a href="cadastro.html">CADASTRE-SE</a>
+					<div class="nav-promocional__button">
+						<a href="#">CADASTRE-SE</a>
 					</div>
 				</div>
 			</div>
@@ -86,9 +91,9 @@
 				</article>
 			</div>
 		</section>
-				
-		<footer>
-			<div>
+		
+		<footer class="block-footer">
+			<div class="container">
 				<p>&copy; Copyright. Hat Shop. Todos os direitos reservados.</p>
 			</div>
 		</footer>
